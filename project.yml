@@ -1,0 +1,46 @@
+name: AirSplit
+options:
+  bundleIdPrefix: com.airsplit
+  deploymentTarget:
+    macOS: "13.0"
+  xcodeVersion: "15.0"
+  generateEmptyDirectories: true
+
+packages:
+  SimplyCoreAudio:
+    url: https://github.com/rnine/SimplyCoreAudio.git
+    branch: develop
+
+targets:
+  AirSplit:
+    type: application
+    platform: macOS
+    sources:
+      - path: AirSplit
+        excludes:
+          - Resources/AirSplit.entitlements
+          - Info.plist
+    resources:
+      - path: AirSplit/Resources/Assets.xcassets
+    dependencies:
+      - package: SimplyCoreAudio
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.airsplit.app
+        MARKETING_VERSION: "1.0.0"
+        CURRENT_PROJECT_VERSION: "1"
+        INFOPLIST_FILE: AirSplit/Info.plist
+        CODE_SIGN_ENTITLEMENTS: AirSplit/Resources/AirSplit.entitlements
+        ENABLE_HARDENED_RUNTIME: YES
+        PRODUCT_NAME: AirSplit
+        COMBINE_HIDPI_IMAGES: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+      configs:
+        debug:
+          SWIFT_OPTIMIZATION_LEVEL: "-Onone"
+        release:
+          SWIFT_OPTIMIZATION_LEVEL: "-O"
+    entitlements:
+      path: AirSplit/Resources/AirSplit.entitlements
+      properties: {}
+

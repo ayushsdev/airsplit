@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D2A650DE0A275B757025DC0 /* BluetoothAudioDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED8389F2799F9DA32984B69 /* BluetoothAudioDevice.swift */; };
+		1411D06F4F886418A5599253 /* AudioError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4003F79F3EA44F3C018501 /* AudioError.swift */; };
+		20DE46A139CF4F5063E7E170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57B005446A1532FBE37966C2 /* Assets.xcassets */; };
+		23A4F347A8B1629862C29AE6 /* DeviceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7E317BAE6D91AA775CB9D2 /* DeviceListView.swift */; };
+		58EE4FA0BA068BC9AD009DA2 /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB126E5CD75377CF089736A /* MenuBarView.swift */; };
+		5B3AFC264713DAF090F63219 /* VolumeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F92ACF341E38D7AC64E16B /* VolumeController.swift */; };
+		647871971F9131B6855F9E98 /* MasterVolumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165F7BC0555EB28AEE0B778F /* MasterVolumeView.swift */; };
+		82525EEFFDEC55C15CB737F9 /* AggregateDeviceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2468E739518B7C075C6BF5 /* AggregateDeviceService.swift */; };
+		8BF60BDD3E0A41762349528D /* DeviceRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B4B56C86343FCADAEDAE47 /* DeviceRowView.swift */; };
+		8CDD78490D678CAD46AF506B /* SimplyCoreAudio in Frameworks */ = {isa = PBXBuildFile; productRef = E9D7437AF5464AB7816792DD /* SimplyCoreAudio */; };
+		9ECE8CFF28E7488119C93236 /* AirSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BB746AAD5F8547C09068B4 /* AirSplitApp.swift */; };
+		A2244FB7ACA242F597A69505 /* AudioDeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69A787DCE3D79F61D254487 /* AudioDeviceManager.swift */; };
+		D862BD810BDCD7B47E4D24F4 /* StatusIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6D7A03694F041408F0BE21 /* StatusIndicatorView.swift */; };
+		DBF74B775EE9102D11160642 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8856F4176FB4E851517DAE0D /* SettingsView.swift */; };
+		F4BAACD63B6644C90750C51B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9C36998F29E777265B1343 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A6D7A03694F041408F0BE21 /* StatusIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusIndicatorView.swift; sourceTree = "<group>"; };
+		165F7BC0555EB28AEE0B778F /* MasterVolumeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterVolumeView.swift; sourceTree = "<group>"; };
+		19F92ACF341E38D7AC64E16B /* VolumeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeController.swift; sourceTree = "<group>"; };
+		27BB746AAD5F8547C09068B4 /* AirSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirSplitApp.swift; sourceTree = "<group>"; };
+		3F9C36998F29E777265B1343 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4B2468E739518B7C075C6BF5 /* AggregateDeviceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AggregateDeviceService.swift; sourceTree = "<group>"; };
+		57B005446A1532FBE37966C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F7E317BAE6D91AA775CB9D2 /* DeviceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceListView.swift; sourceTree = "<group>"; };
+		5FB126E5CD75377CF089736A /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
+		6F4003F79F3EA44F3C018501 /* AudioError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioError.swift; sourceTree = "<group>"; };
+		827E2EF8B0A0ED973251E51F /* AirSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8856F4176FB4E851517DAE0D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9ED8389F2799F9DA32984B69 /* BluetoothAudioDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothAudioDevice.swift; sourceTree = "<group>"; };
+		C69A787DCE3D79F61D254487 /* AudioDeviceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioDeviceManager.swift; sourceTree = "<group>"; };
+		D4B4B56C86343FCADAEDAE47 /* DeviceRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceRowView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4238FAE839CD09F0A5D10DA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CDD78490D678CAD46AF506B /* SimplyCoreAudio in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02584F81A68EE29A499B6547 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6F4003F79F3EA44F3C018501 /* AudioError.swift */,
+				3F9C36998F29E777265B1343 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0B237A215938DFC07DF4C3BE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9ED8389F2799F9DA32984B69 /* BluetoothAudioDevice.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		11D159BF70CAD33AFBA2B5DC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4B2468E739518B7C075C6BF5 /* AggregateDeviceService.swift */,
+				C69A787DCE3D79F61D254487 /* AudioDeviceManager.swift */,
+				19F92ACF341E38D7AC64E16B /* VolumeController.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4411F266FD4138748A7A0711 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				27BB746AAD5F8547C09068B4 /* AirSplitApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		47EA92F1C762050BF1276D4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				827E2EF8B0A0ED973251E51F /* AirSplit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4836F9DC741CF869D7CB1E05 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F7E317BAE6D91AA775CB9D2 /* DeviceListView.swift */,
+				D4B4B56C86343FCADAEDAE47 /* DeviceRowView.swift */,
+				165F7BC0555EB28AEE0B778F /* MasterVolumeView.swift */,
+				5FB126E5CD75377CF089736A /* MenuBarView.swift */,
+				8856F4176FB4E851517DAE0D /* SettingsView.swift */,
+				0A6D7A03694F041408F0BE21 /* StatusIndicatorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7D49ED76E2898B02FC6D0E88 /* AirSplit */ = {
+			isa = PBXGroup;
+			children = (
+				4411F266FD4138748A7A0711 /* App */,
+				0B237A215938DFC07DF4C3BE /* Models */,
+				8190B6DF201E72943BF9E492 /* Resources */,
+				11D159BF70CAD33AFBA2B5DC /* Services */,
+				02584F81A68EE29A499B6547 /* Utilities */,
+				4836F9DC741CF869D7CB1E05 /* Views */,
+			);
+			path = AirSplit;
+			sourceTree = "<group>";
+		};
+		8190B6DF201E72943BF9E492 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				57B005446A1532FBE37966C2 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		86871BC377BD06CA1C520CB7 = {
+			isa = PBXGroup;
+			children = (
+				7D49ED76E2898B02FC6D0E88 /* AirSplit */,
+				47EA92F1C762050BF1276D4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		302F458624B6FA030966AD8C /* AirSplit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D245AD3696B9A314F48FC364 /* Build configuration list for PBXNativeTarget "AirSplit" */;
+			buildPhases = (
+				ECE8BFECD3AF7657ACB8020B /* Sources */,
+				2A89FAF000A3F61E1D1E9520 /* Resources */,
+				4238FAE839CD09F0A5D10DA0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirSplit;
+			packageProductDependencies = (
+				E9D7437AF5464AB7816792DD /* SimplyCoreAudio */,
+			);
+			productName = AirSplit;
+			productReference = 827E2EF8B0A0ED973251E51F /* AirSplit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D593F302B4A2739CAD5F48E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = D32EE62B38FC5E180291337E /* Build configuration list for PBXProject "AirSplit" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 86871BC377BD06CA1C520CB7;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B3E749F51D99183DF196F5D1 /* XCRemoteSwiftPackageReference "SimplyCoreAudio" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 47EA92F1C762050BF1276D4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				302F458624B6FA030966AD8C /* AirSplit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A89FAF000A3F61E1D1E9520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20DE46A139CF4F5063E7E170 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECE8BFECD3AF7657ACB8020B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82525EEFFDEC55C15CB737F9 /* AggregateDeviceService.swift in Sources */,
+				9ECE8CFF28E7488119C93236 /* AirSplitApp.swift in Sources */,
+				A2244FB7ACA242F597A69505 /* AudioDeviceManager.swift in Sources */,
+				1411D06F4F886418A5599253 /* AudioError.swift in Sources */,
+				0D2A650DE0A275B757025DC0 /* BluetoothAudioDevice.swift in Sources */,
+				F4BAACD63B6644C90750C51B /* Constants.swift in Sources */,
+				23A4F347A8B1629862C29AE6 /* DeviceListView.swift in Sources */,
+				8BF60BDD3E0A41762349528D /* DeviceRowView.swift in Sources */,
+				647871971F9131B6855F9E98 /* MasterVolumeView.swift in Sources */,
+				58EE4FA0BA068BC9AD009DA2 /* MenuBarView.swift in Sources */,
+				DBF74B775EE9102D11160642 /* SettingsView.swift in Sources */,
+				D862BD810BDCD7B47E4D24F4 /* StatusIndicatorView.swift in Sources */,
+				5B3AFC264713DAF090F63219 /* VolumeController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0E4563ACBF7939250A9F7AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AirSplit/Resources/AirSplit.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7FZ6TUJS4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = AirSplit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.airsplit.app;
+				PRODUCT_NAME = AirSplit;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45F4BAEA617E81C1A3C61394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		70C5BC66CCAEA8DFEF204993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F60C9E3D3060F6563D862C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AirSplit/Resources/AirSplit.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7FZ6TUJS4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = AirSplit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.airsplit.app;
+				PRODUCT_NAME = AirSplit;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D245AD3696B9A314F48FC364 /* Build configuration list for PBXNativeTarget "AirSplit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E4563ACBF7939250A9F7AB2 /* Debug */,
+				F60C9E3D3060F6563D862C71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D32EE62B38FC5E180291337E /* Build configuration list for PBXProject "AirSplit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F4BAEA617E81C1A3C61394 /* Debug */,
+				70C5BC66CCAEA8DFEF204993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B3E749F51D99183DF196F5D1 /* XCRemoteSwiftPackageReference "SimplyCoreAudio" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rnine/SimplyCoreAudio.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E9D7437AF5464AB7816792DD /* SimplyCoreAudio */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B3E749F51D99183DF196F5D1 /* XCRemoteSwiftPackageReference "SimplyCoreAudio" */;
+			productName = SimplyCoreAudio;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3D593F302B4A2739CAD5F48E /* Project object */;
+}
